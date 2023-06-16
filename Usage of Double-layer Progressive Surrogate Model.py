@@ -289,7 +289,7 @@ def surrogateAnalysis(sample):
 
 if __name__ == "__main__":
    
-    # Analysis of Spiral Shaft
+    # Analysis of Spiral Shaft (Example)
     sC = np.array([[0.29281, 0.31579, 0.43333, 0.50000, 0.29800, 0.42857, 0.38333, 0.53659]])
     stress = surrogateAnalysis(sC)[:,8]
         
